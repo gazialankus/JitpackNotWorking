@@ -33,8 +33,11 @@ dependencies {
     // so, app won't build with this error:
     // Error:(6, 38) error: package com.theartofdev.edmodo.cropper does not exist
     // here's the jitpack log, which says "ok": https://jitpack.io/com/github/ArthurHub/android-image-cropper/2.4.5
-    compile 'com.github.ArthurHub:android-image-cropper:2.4.5'
+    //compile 'com.github.ArthurHub:android-image-cropper:2.4.5'
     //compile 'com.github.ArthurHub:Android-Image-Cropper:2.4.5'
+    // and this is a fork with the same issue
+    // here I tried to make as JitPack friendly as possible, as per https://jitpack.io/docs/ANDROID/
+    compile 'com.github.gazialankus:Android-Image-Cropper:master-SNAPSHOT'
 
     // works fine with this (maven)
     //compile 'com.theartofdev.edmodo:android-image-cropper:2.4.5'
