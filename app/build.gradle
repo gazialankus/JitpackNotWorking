@@ -39,7 +39,7 @@ dependencies {
     // here I tried to make as JitPack friendly as possible, as per https://jitpack.io/docs/ANDROID/
     compile 'com.github.gazialankus:Android-Image-Cropper:master-SNAPSHOT'
 
-    // works fine with this (maven)
+    // works fine with this (without jitpack)
     //compile 'com.theartofdev.edmodo:android-image-cropper:2.4.5'
 
 }
