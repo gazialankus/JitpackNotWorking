@@ -36,7 +36,7 @@ dependencies {
     compile 'com.github.ArthurHub:android-image-cropper:2.4.5'
     //compile 'com.github.ArthurHub:Android-Image-Cropper:2.4.5'
 
-    // works fine with this (maven)
+    // works fine with this (without jitpack)
     //compile 'com.theartofdev.edmodo:android-image-cropper:2.4.5'
 
 }
