@@ -34,4 +34,3 @@ The problem is summarized with comments in the [build.gradle](https://github.com
     //compile 'com.theartofdev.edmodo:android-image-cropper:2.4.5'
 ~~~~
 
-.
